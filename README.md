@@ -1,12 +1,10 @@
 # Qubix University — compiled site
 
-This repository holds the built output only. It exists because GitHub Pages will
-not serve a private repository on a free account, and the source must stay
-private.
+Built output only. Source lives in the private QUBIX_UNI- repository and is
+published from there by `npm run deploy`. Do not edit anything here by hand.
 
-Source: https://github.com/alisid0/QUBIX_UNI- (private)
-Built by `npm run build` in that repository; do not edit anything here by hand.
+Served by GitHub Pages at https://qubix.university/
 
-What is deliberately not in the bundle: the Factory authoring surface, every
-gated draft board, the rejected variants, and the authoring notes. That is
-asserted at build time by `scripts/deploy.mjs` rather than left to trust.
+The Factory, the gated draft boards, the rejected variants and the authoring
+notes are deliberately absent, and that is asserted at build time rather than
+left to trust.
